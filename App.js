@@ -2,13 +2,18 @@ import React from 'react';
 import { View, StyleSheet } from 'react-native';
 import AddEntry from './components/AddEntry'
 import { getMetricMetaInfo } from './utils/helpers';
+import { createStore } from 'redux'
+import { Provider } from 'react-redux'
+import reducer from './reducers'
 
 export default class App extends React.Component {
   render() {
     return (
-      <View style={styles.containe}>
-		<AddEntry />
-      </View>
+			<Provider store={createStore(reducer)} >
+				<View style={styles.containe}>
+					<AddEntry />
+				</View>
+			</Provider>
     );
   }
 }

@@ -4,6 +4,7 @@
   "private": true,
   "devDependencies": {
     "react-native-scripts": "1.8.1",
+    "expo": "^23.0.4",
     "jest-expo": "23.0.0",
     "react-test-renderer": "16.0.0"
   },
@@ -19,8 +20,9 @@
     "preset": "jest-expo"
   },
   "dependencies": {
-    "expo": "^23.0.4",
     "react": "16.0.0",
-    "react-native": "0.50.3"
+    "react-native": "0.50.3",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2"
   }
 }
