@@ -95,7 +95,7 @@ import { red, orange, blue, lightPurp, pink, white } from './colors'
 				)
 			}
 			},
-			swimm: {
+			swim: {
 			displayName: "Swimm",
 			max: 9900,
 			unit: "meters",
@@ -117,7 +117,7 @@ import { red, orange, blue, lightPurp, pink, white } from './colors'
 			displayName: "Sleep",
 			max: 24,
 			unit: "hours",
-			step: 100,
+			step: 1,
 			type: "slider",
 			getIcon() {
 				return (
@@ -135,7 +135,7 @@ import { red, orange, blue, lightPurp, pink, white } from './colors'
 			displayName: "Eat",
 			max: 10,
 			unit: "rating",
-			step: 100,
+			step: 1,
 			type: "slider",
 			getIcon() {
 				return (
